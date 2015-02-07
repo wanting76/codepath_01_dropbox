@@ -1,20 +1,25 @@
-CodePath_Tips
+CodePath_Dropbox
 =============
 
-This is an iOS app for calculating tips.
+This is a dropbox iOS app for welcome screens plus sign in and sign up flow.
 
 ### Hours to Complete
-About 5-6 hours.
+About 3-4 hours.
 
 ### Completed Stories
- * [x] REQUIRED: User can enter in their bill amount to calculate their tip.
- * [x] REQUIRED: User can select between 18%, 20%, and 22% tips.
- * [x] OPTIONAL: Applied basic visual styles to views (color, fonts, etc.)
- * [x] OPTIONAL: Applied basic animations (fade-in).
- * [x] OPTIONAL: Applied icon/launch images.
+ * [x] REQUIRED: User can tap through the 3 welcome screens.
+ * [x] REQUIRED: User can follow the create user flow.
+    * [x] On the create user form, the user can tap the back button to go to the page where they can sign in or create an account.
+    * [x] Before creating the account, user can choose to read the terms of service.
+    * [x] After creating the account, user can view the placeholders for Files, Photos, and Favorites as well as the Settings screen.
+    * [x] User can log out from the Settings screen.
+ * [x] REQUIRED: User can follow the sign in flow.
+    * [x] User can tap the area for "Having trouble signing in?"
+    * [x] User can log out from the Settings screen.
+ * [x] OPTIONAL: Will try to get to it later
 
 ### Other Notes
- * Wasn't able to make the launch image appear properly.
+ * N/A
 
 ### Walkthrough
-![Video Walkthrough](tips-walkthrough.gif)
+![Video Walkthrough](dropbox-walkthrough.gif)
