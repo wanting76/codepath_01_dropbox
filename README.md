@@ -4,7 +4,7 @@ CodePath_Dropbox
 This is a dropbox iOS app for welcome screens plus sign in and sign up flow.
 
 ### Hours to Complete
-About 3-4 hours.
+3-4 hours for required part. 2 hours researching and implementing the optional part.
 
 ### Completed Stories
  * [x] REQUIRED: User can tap through the 3 welcome screens.
@@ -16,10 +16,10 @@ About 3-4 hours.
  * [x] REQUIRED: User can follow the sign in flow.
     * [x] User can tap the area for "Having trouble signing in?"
     * [x] User can log out from the Settings screen.
- * [x] OPTIONAL: Will try to get to it later
+ * [x] OPTIONAL: User is able to swipe through the welcome screens instead of just tapping them.
 
 ### Other Notes
- * N/A
+ * I implemented the swiping with Swipe Gesture Recognizer, but the transition between screens is not smooth. Using the "scroll view" might be a better way to go. 
 
 ### Walkthrough
 ![Video Walkthrough](dropbox-walkthrough.gif)
