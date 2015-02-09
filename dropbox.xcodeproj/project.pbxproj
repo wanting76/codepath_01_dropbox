@@ -19,6 +19,9 @@
 		4BD14D561A86C19E00A7D2CF /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD14D551A86C19E00A7D2CF /* TermsViewController.swift */; };
 		4BD14D581A86C43A00A7D2CF /* TroubleSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD14D571A86C43A00A7D2CF /* TroubleSignInViewController.swift */; };
 		4BD14D5A1A86CB2E00A7D2CF /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD14D591A86CB2E00A7D2CF /* SettingsViewController.swift */; };
+		4BD14D5C1A8829FA00A7D2CF /* Welcome1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD14D5B1A8829FA00A7D2CF /* Welcome1ViewController.swift */; };
+		4BD14D5E1A8836C800A7D2CF /* Welcome3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD14D5D1A8836C800A7D2CF /* Welcome3ViewController.swift */; };
+		4BD14D601A88381900A7D2CF /* Welcome2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD14D5F1A88381900A7D2CF /* Welcome2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		4BD14D551A86C19E00A7D2CF /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		4BD14D571A86C43A00A7D2CF /* TroubleSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TroubleSignInViewController.swift; sourceTree = "<group>"; };
 		4BD14D591A86CB2E00A7D2CF /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		4BD14D5B1A8829FA00A7D2CF /* Welcome1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Welcome1ViewController.swift; sourceTree = "<group>"; };
+		4BD14D5D1A8836C800A7D2CF /* Welcome3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Welcome3ViewController.swift; sourceTree = "<group>"; };
+		4BD14D5F1A88381900A7D2CF /* Welcome2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Welcome2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +98,9 @@
 				4BD14D2B1A86AEAB00A7D2CF /* AppDelegate.swift */,
 				4BD14D2D1A86AEAB00A7D2CF /* ViewController.swift */,
 				4BD14D2F1A86AEAB00A7D2CF /* Main.storyboard */,
+				4BD14D5F1A88381900A7D2CF /* Welcome2ViewController.swift */,
+				4BD14D5D1A8836C800A7D2CF /* Welcome3ViewController.swift */,
+				4BD14D5B1A8829FA00A7D2CF /* Welcome1ViewController.swift */,
 				4BD14D591A86CB2E00A7D2CF /* SettingsViewController.swift */,
 				4BD14D571A86C43A00A7D2CF /* TroubleSignInViewController.swift */,
 				4BD14D551A86C19E00A7D2CF /* TermsViewController.swift */,
@@ -233,10 +242,13 @@
 				4BD14D541A86B9E300A7D2CF /* CreateAccountRootViewController.swift in Sources */,
 				4BD14D501A86B91000A7D2CF /* CreateAccountViewController.swift in Sources */,
 				4BD14D4E1A86B8F300A7D2CF /* SignInRootViewController.swift in Sources */,
+				4BD14D601A88381900A7D2CF /* Welcome2ViewController.swift in Sources */,
 				4BD14D521A86B92700A7D2CF /* SignInViewController.swift in Sources */,
 				4BD14D2E1A86AEAB00A7D2CF /* ViewController.swift in Sources */,
 				4BD14D2C1A86AEAB00A7D2CF /* AppDelegate.swift in Sources */,
+				4BD14D5C1A8829FA00A7D2CF /* Welcome1ViewController.swift in Sources */,
 				4BD14D561A86C19E00A7D2CF /* TermsViewController.swift in Sources */,
+				4BD14D5E1A8836C800A7D2CF /* Welcome3ViewController.swift in Sources */,
 				4BD14D5A1A86CB2E00A7D2CF /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,6 +435,7 @@
 				4BD14D471A86AEAB00A7D2CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BD14D481A86AEAB00A7D2CF /* Build configuration list for PBXNativeTarget "dropboxTests" */ = {
 			isa = XCConfigurationList;
@@ -431,6 +444,7 @@
 				4BD14D4A1A86AEAB00A7D2CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
